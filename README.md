@@ -8,9 +8,9 @@ This tutorial uses screen to manage background task
   ```
   screen
   ```
-2. Inside spawned screen, run the desired (logger command)[#simple-stats-logger-command].  example : 
+2. Inside spawned screen, run the desired [logger command](#simple-stats-logger-command).  example : 
   ```
-  ./docker_stats_logger.sh
+  ./dockerstats_logger.sh
   ```
 3. Watch the log being written to data folder, or send it to background with shortcut ctrl+a and then ctrl+d
 
@@ -18,16 +18,22 @@ This tutorial uses screen to manage background task
 
 ## Docker Stats
   ```
-  ./docker_stats_logger.sh
+  ./dockerstats_logger.sh
+  ```
+
+## Docker Ps
+  ```
+  ./dockerps_logger.sh
   ```
 
 ## Nvidia-smi Stats
   ```
-  ./nvidiasmi_stats_logger.sh
+  ./nvidiasmi_logger.sh
   ```
 
 ## Bitfusion smi
 
 # Credit
-https://stackoverflow.com/a/67252305
+logger : https://stackoverflow.com/a/67252305
+
 

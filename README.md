@@ -26,12 +26,32 @@ This tutorial uses screen to manage background task
   ./dockerps_logger.sh
   ```
 
+## Docker Ps Size
+  ```
+  ./dockerpssize_logger.sh
+  ```
+
 ## Nvidia-smi Stats
   ```
   ./nvidiasmi_logger.sh
   ```
 
 ## Bitfusion smi
+  ```
+  ./bitfusionsmi_logger.sh
+  ```
+
+## Custom Stats
+  ```
+  #filename
+  export logger_title='mycustomdata'
+  #command to get data
+  export logger_command='myapplog'
+  #time interval
+  export logger_time='1'
+  #run
+  ./logger.sh
+  ```
 
 # Credit
 logger : https://stackoverflow.com/a/67252305

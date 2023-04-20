@@ -22,6 +22,9 @@ This tutorial uses screen to manage background task
   ```
 
 ## Nvidia-smi Stats
+  ```
+  ./nvidiasmi_stats_logger.sh
+  ```
 
 ## Bitfusion smi
 

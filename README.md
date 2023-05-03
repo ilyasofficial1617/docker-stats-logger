@@ -13,6 +13,7 @@ This tutorial uses screen to manage background task
   ./dockerstats_logger.sh
   ```
 3. Watch the log being written to data folder, or send it to background with shortcut ctrl+a and then ctrl+d
+4. Type q to gracefully stop the logger
 
 # Simple stats logger command
 
@@ -49,6 +50,8 @@ This tutorial uses screen to manage background task
   export logger_command='myapplog'
   #time interval
   export logger_time='1'
+  #logger storage bulk method
+  export logger_bulk='all' or export logger_bulk='daily'
   #run
   ./logger.sh
   ```
